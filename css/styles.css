@@ -1,0 +1,192 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding-top: 60px;
+  }
+  
+  /* Encabezado y Navegación */
+  header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    z-index: 1000;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #f4b400;
+  }
+  
+  /* Sección Hero */
+  .hero {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5em;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* Sección Proyectos */
+  #proyectos {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #proyectos h2 {
+    margin-bottom: 20px;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .project-card h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+  }
+  
+  .project-card p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #555;
+  }
+  
+  /* Sección Sobre Mí */
+  #sobre-mi {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #sobre-mi h2 {
+    margin-bottom: 10px;
+  }
+  
+  #sobre-mi p {
+    font-size: 1.2em;
+  }
+  
+  /* Sección Contacto */
+  #contacto {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #contacto h2 {
+    margin-bottom: 20px;
+  }
+  
+  #contacto form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  #contacto label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+  }
+  
+  #contacto input,
+  #contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #contacto button {
+    background: #f4b400;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contacto button:hover {
+    background: #e69500;
+  }
+  
+  /* Pie de Página */
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  footer a {
+    color: #f4b400;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2em;
+    }
+  
+    .hero p {
+      font-size: 1em;
+    }
+  }
+  

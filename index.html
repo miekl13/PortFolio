@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio de Miguel Angel Jimenez Montemayor</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="assets/icons/logo.png" type="image/png">
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#sobre-mi">Sobre Mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección Inicio -->
+  <section id="inicio" class="hero">
+    <h1>Miguel Angel Jimenez Montemayor</h1>
+    <p>Artista Digital 2D/3D y Diseñador de Videojuegos</p>
+  </section>
+
+  <!-- Sección Proyectos -->
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="assets/images/project1.png" alt="Dragon Ball Idle RPG">
+        <h3>Dragon Ball Idle RPG</h3>
+        <p>Juego idle RPG desarrollado con Phaser.</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/images/project2.png" alt="Pet Escape">
+        <h3>Pet Escape</h3>
+        <p>Juego runner infinito desarrollado en Phaser.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Sobre Mí -->
+  <section id="sobre-mi">
+    <h2>Sobre Mí</h2>
+    <p>Soy un apasionado artista digital con experiencia en diseño 2D y 3D. He participado en proyectos de videojuegos y game jams, obteniendo reconocimientos por mi trabajo en arte conceptual y modelado.</p>
+  </section>
+
+  <!-- Sección Contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2024 Miguel Angel Jimenez Montemayor | <a href="https://github.com/miekl13">GitHub</a> | <a href="https://www.linkedin.com/in/miguel-angel-jmenez-montemayor-82b39a325/">LinkedIn</a></p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
