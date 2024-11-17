@@ -28,7 +28,7 @@ const Contact = () => {
       )
       .then(
         () => {
-          toast("Message send successfully!", {
+          toast("Mensaje eviado de forma exitosa", {
             position: "bottom-left",
             autoClose: 5000,
             hideProgressBar: false,
@@ -40,7 +40,7 @@ const Contact = () => {
           });
         },
         () => {
-          toast.error("Message failed! Try again letter", {
+          toast.error("Mensaje fallido! Intentalo mas tarde", {
             position: "bottom-left",
             autoClose: 5000,
             hideProgressBar: false,
@@ -61,7 +61,7 @@ const Contact = () => {
 
   return (
     <div className='contact container mx-auto mt-40' id='contact'>
-      <SectionTitle title={"Let's Talk"} />
+      <SectionTitle title={"Hablemos"} />
 
       <form
         onSubmit={sendMail}
@@ -73,7 +73,7 @@ const Contact = () => {
             ref={input1Ref}
             type='text'
             name='fullname'
-            placeholder='Write your name'
+            placeholder='Escribe tu nombre'
             required
             className='fullname bg-transparent border border-white/20 py-16 px-28 rounded-full tracking-widest outline-none w-full focus:border-cyan-400 duration-500'
           />
@@ -83,7 +83,7 @@ const Contact = () => {
             ref={input2Ref}
             type='email'
             name='email'
-            placeholder='Write your email'
+            placeholder='Escribe tu email'
             required
             className='email bg-transparent border border-white/20 py-16 px-28 rounded-full tracking-widest outline-none w-full focus:border-cyan-400 duration-500'
           />
@@ -92,7 +92,7 @@ const Contact = () => {
           <textarea
             ref={input3Ref}
             name='message'
-            placeholder='Write your message'
+            placeholder='Escribe tu mensaje'
             required
             rows='1'
             cols='30'
@@ -103,7 +103,7 @@ const Contact = () => {
           <input
             ref={input4Ref}
             type='submit'
-            value='Send message'
+            value='Enviar mensaje'
             className='submit uppercase bg-transparent border border-white/20 py-16 px-28 rounded-full outline-none tracking-widest w-full hover:bg-cyan-400/20 hover:border-cyan-400/20  duration-500'
           />
         </div>
