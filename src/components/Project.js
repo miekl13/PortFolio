@@ -30,15 +30,7 @@ const Project = ({ project }) => {
           ))}
         </span>
         <div className='project-btn flex flex-wrap gap-10'>
-          <a
-            className='uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-cyan-400/20 hover:border-cyan-400/20 duration-300'
-            href={project.liveLink}
-            target='_blank'
-            rel='noreferrer'
-          >
-            Live Site
-          </a>
-
+  
           {project.fullStackLink && (
             <a
               className='uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-cyan-400/20 hover:border-cyan-400/20 duration-300'

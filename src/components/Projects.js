@@ -10,58 +10,41 @@ const data = [
     image2:
       "/assets/images/Arte2D/EscenaAccion.png",
     description:
-      "Experience a transformative online learning journey with Learnify. Explore a diverse range of courses, engage with interactive lessons, and embrace a seamless user experience. With Learnify, acquiring new skills and knowledge has never been easier. Join us today and unlock the full potential of your learning endeavors.",
+      "Proyecto de universidad que consistia en hacer un supuesto DLC del Sead of Star, se utilizaron principalmente el Procreate para crear el diseño del poster y de la escena accion  ",
     tools: [
-      "Next.js",
-      "React.js",
-      "MongoDB",
-      "Stripe",
-      "Prisma",
-      "GCP",
-      "Tailwind CSS",
-      "AOS",
+      "Procreate",
+      "Adobe IndieDesign",
     ],
-    liveLink: "https://learnify-pro.vercel.app",
-    fullStackLink: "https://github.com/masudranashawon/learnify",
     frontEndLink: "",
     backEndLink: "",
   },
   {
     id: 2,
-    title: "Proxima: Project Management Web Application",
+    title: "Trabajos y proyectos 2D",
     image1:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1679669817/Personal%20Portfolio/proxima-one_rzufpn.png",
+      "/assets/images/Arte2D/PersonajeGral.png",
     image2:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1679669817/Personal%20Portfolio/proxima-two_zrwmos.png",
+      "/assets/images/Arte2D/personajeSeai.jpg",
     description:
-      "Proxima is a project management application built using the MERN stack. It allows users to create, update, and delete their projects with ease. Proxima emphasizes high-level security, featuring robust JWT authentication and front-end route protection to ensure user data safety.",
+      "Proyecto de universidad que consistia en hacer un supuesto DLC del Sead of Star, se utilizaron principalmente el Procreate para crear el diseño del poster y de la escena accion  ",
     tools: [
-      "React.js",
-      "Tailwind CSS",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
+      "Procreate",
+      "Adobe IndieDesign",
     ],
-    liveLink: "https://proxima-application.netlify.app",
-    fullStackLink: "",
-    frontEndLink: "https://github.com/masudranashawon/proxima-client",
-    backEndLink: "https://github.com/masudranashawon/proxima-server",
+    frontEndLink: "",
+    backEndLink: "",
   },
   {
     id: 3,
     title: "Tech Alpha: Online Electronics Accessories Store",
     image1:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1675615229/Personal%20Portfolio/tech-alpha-1_lgzxvt.png",
+      "/assets/images/Arte2D/vaquero.png",
     image2:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1675615227/Personal%20Portfolio/tech-alpha-2_tlagyh.png",
+      "/assets/images/Arte2D/EscenarioConceptart.png",
     description:
       "Tech Alpha offers the latest electronic accessories through a seamless online shopping experience. Built using Redux.js, it features modern design, robust shopping functionality, and easy navigation. Data is served via JSON server and fetched using Axios.",
     tools: ["React.js", "Tailwind CSS", "Redux.js", "Redux Toolkit", "Axios"],
-    liveLink: "https://tech-alpha-masud.netlify.app",
-    fullStackLink: "",
-    frontEndLink: "https://github.com/masudranashawon/tech-alpha",
-    backEndLink: "https://github.com/masudranashawon/tech-alpha-server",
+
   },
   {
     id: 4,
@@ -73,10 +56,6 @@ const data = [
     description:
       "Foodverse is a recipe finder app where users can search for recipes, view ingredient details, and save their favorites locally. Recipes cater to various dietary preferences, offering something for everyone.",
     tools: ["React.js", "React Router", "Tailwind CSS"],
-    liveLink: "https://food-verse-masud.netlify.app/",
-    fullStackLink: "",
-    frontEndLink: "https://github.com/masudranashawon/foodverse",
-    backEndLink: "",
   },
 ];
 
