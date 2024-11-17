@@ -6,9 +6,9 @@ const data = [
     id: 1,
     title: "Trabajos y proyectos 2D",
     image1:
-      "C:/Users/migue/OneDrive/Escritorio/Portfolio/src/assets/images/Arte2D/poster.jpg",
+      "/assets/images/Arte2D/poster.jpg",
     image2:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1692032065/Personal%20Portfolio/learnify-2_oneneu.png",
+      "/assets/images/Arte2D/EscenaAccion.png",
     description:
       "Experience a transformative online learning journey with Learnify. Explore a diverse range of courses, engage with interactive lessons, and embrace a seamless user experience. With Learnify, acquiring new skills and knowledge has never been easier. Join us today and unlock the full potential of your learning endeavors.",
     tools: [
