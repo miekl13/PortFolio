@@ -16,9 +16,9 @@ const Footer = () => {
           to='#hero'
           className='link-item hover:text-white duration-500'
         >
-          Masud Rana Shawon
+          Miguel Angel Jimenez Montemayor
         </HashLink>
-        . Crafted by yours truly
+        . Proudly crafted by me
       </p>
     </footer>
   );

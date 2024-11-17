@@ -3,8 +3,8 @@ import { useHoverEffect } from "../hooks/useHoverEffect";
 import { useImageReveal, useHeadlineReveal } from "../hooks/gsap";
 
 const data = {
-  img1: "https://res.cloudinary.com/drgxflcsb/image/upload/v1676030149/Personal%20Portfolio/masud-image2_xhvc03.jpg",
-  img2: "https://res.cloudinary.com/drgxflcsb/image/upload/v1676030149/Personal%20Portfolio/masud-image1_rejzqv.jpg",
+  img1: "https://res.cloudinary.com/drgxflcsb/image/upload/v1676030149/Personal%20Portfolio/masud-image2_xhvc03.jpg", // Cambia esta URL por la tuya
+  img2: "https://res.cloudinary.com/drgxflcsb/image/upload/v1676030149/Personal%20Portfolio/masud-image1_rejzqv.jpg", // Cambia esta URL por la tuya
 };
 
 const Hero = () => {
@@ -25,10 +25,10 @@ const Hero = () => {
     >
       <div className='hero-image' ref={heroImageRef}></div>
       <div className='shutter shutter-left overflow-hidden'>
-        <h1 ref={heroHeadline1Ref}>Full Stack</h1>
+        <h1 ref={heroHeadline1Ref}>Creative</h1>
       </div>
       <div className='shutter shutter-right overflow-hidden'>
-        <h1 ref={heroHeadline2Ref}>Developer</h1>
+        <h1 ref={heroHeadline2Ref}>Portfolio</h1>
       </div>
       <div className='circle-left'></div>
       <div className='circle-right'></div>

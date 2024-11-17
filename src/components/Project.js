@@ -6,10 +6,10 @@ const Project = ({ project }) => {
   const projectRightRef = useRef(null);
   const projectLeftRef = useRef(null);
 
-  const projetRefs = [projectRightRef, projectLeftRef];
+  const projectRefs = [projectRightRef, projectLeftRef];
 
   useHoverEffect(projectRightRef, project.image1, project.image2);
-  useProjectLeftRightReveal(projetRefs);
+  useProjectLeftRightReveal(projectRefs);
 
   return (
     <div className='project grid grid-cols-1 xl:grid-cols-5 overflow-hidden gap-20'>
