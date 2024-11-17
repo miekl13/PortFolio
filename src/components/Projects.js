@@ -4,9 +4,9 @@ import SectionTitle from "./SectionTitle";
 const data = [
   {
     id: 1,
-    title: "Learnify: An Online Learning Platform",
+    title: "Trabajos y proyectos 2D",
     image1:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1692032065/Personal%20Portfolio/learnify-1_gybje8.png",
+      "C:/Users/migue/OneDrive/Escritorio/Portfolio/src/assets/images/Arte2D/poster.jpg",
     image2:
       "https://res.cloudinary.com/drgxflcsb/image/upload/v1692032065/Personal%20Portfolio/learnify-2_oneneu.png",
     description:
