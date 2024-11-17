@@ -46,7 +46,7 @@ const Project = ({ project }) => {
               target='_blank'
               rel='noreferrer'
             >
-              Full Stack Code
+              Full Stack Cod
             </a>
           )}
 
