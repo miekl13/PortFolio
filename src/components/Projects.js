@@ -4,7 +4,7 @@ import SectionTitle from "./SectionTitle";
 const data = [
   {
     id: 1,
-    title: "Trabajos y proyectos 2D",
+    title: "Poster y escena de accion ",
     image1:
       "/assets/images/Arte2D/poster.jpg",
     image2:
@@ -20,7 +20,7 @@ const data = [
   },
   {
     id: 2,
-    title: "Trabajos y proyectos 2D",
+    title: "Concepts de personajes",
     image1:
       "/assets/images/Arte2D/PersonajeGral.png",
     image2:
@@ -36,27 +36,82 @@ const data = [
   },
   {
     id: 3,
-    title: "Tech Alpha: Online Electronics Accessories Store",
+    title: "Personaje mas escenario western",
     image1:
       "/assets/images/Arte2D/vaquero.png",
     image2:
       "/assets/images/Arte2D/EscenarioConceptart.png",
     description:
-      "Tech Alpha offers the latest electronic accessories through a seamless online shopping experience. Built using Redux.js, it features modern design, robust shopping functionality, and easy navigation. Data is served via JSON server and fetched using Axios.",
-    tools: ["React.js", "Tailwind CSS", "Redux.js", "Redux Toolkit", "Axios"],
-
+      "Trabajo que consitia en hacer un personaje y un escenario con la misma tematica, en mi caso hice un escenario western  ",
+    tools: ["Photoshop, Procreate"],
   },
   {
     id: 4,
-    title: "Foodverse: A Recipe Finder Web Application",
+    title: "Concepts de escenario western",
     image1:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1675615230/Personal%20Portfolio/foodverse-1_mkf88w.png",
+      "/assets/images/Arte2D/cowboy5.png",
     image2:
-      "https://res.cloudinary.com/drgxflcsb/image/upload/v1675615230/Personal%20Portfolio/foodvarse-2_qekgne.png",
+      "/assets/images/Arte2D/cowboy7.png",
     description:
-      "Foodverse is a recipe finder app where users can search for recipes, view ingredient details, and save their favorites locally. Recipes cater to various dietary preferences, offering something for everyone.",
-    tools: ["React.js", "React Router", "Tailwind CSS"],
+      "Mas concept de personajes ",
+    tools: ["Photoshop"],
   },
+  {
+    id: 5,
+    title: "Personaje animado mas Caratula",
+    image1:
+      "/assets/images/Arte2D/Max.png",
+    image2:
+      "/assets/images/Arte2D/Caratula_FINAL.png",
+    description:
+      "Trabajo el cual se tenia que animar un personaje en Adobe Animation mas hacer una caratula aprendiendo las tecnicas de photobasing",
+    tools: ["Photoshop"],
+  },
+  {
+    id: 6,
+    title: "Concept art de personajes de Game Jam",
+    image1:
+      "/assets/images/Arte2D/rico.png",
+    image2:
+      "/assets/images/Arte2D/Personajebotijo.png",
+    description:
+      "Personaje que realice para una GameJam, la cual consistia en hacer personajes que tenian que estar bien definidos.El videokiegos quedo segundo haciendo que fueramos a prenetarlo en la IndieDevDay",
+    tools: ["Procreate", "Photoshop"],
+  },
+  {
+    id: 7,
+    title: "Diseño de personajes estilizados",
+    image1:
+      "/assets/images/Arte2D/taxista.png",
+    image2:
+      "/assets/images/Arte2D/caratulas.jpg",
+    description:
+      "Personaje que realice para una GameJam, la cual consistia en hacer personajes que tenian que estar bien definidos.El videokiegos quedo segundo haciendo que fueramos a prenetarlo en la IndieDevDay",
+    tools: ["Procreate", "Photoshop"],
+  },
+  {
+    id: 8,
+    title: "Diaseño de personaje fantaticos",
+    image1:
+      "/assets/images/Arte2D/fenix.jpg",
+    image2:
+      "/assets/images/Arte2D/zombie.png",
+    description:
+      "Personaje que realice para una GameJam, la cual consistia en hacer personajes que tenian que estar bien definidos.El videokiegos quedo segundo haciendo que fueramos a prenetarlo en la IndieDevDay",
+    tools: ["Procreate", "Photoshop"],
+  },
+  {
+    id: 9,
+    title: "Diaseño de personaje fantaticos",
+    image1:
+      "/assets/images/Arte2D/fenix.png",
+    image2:
+      "/assets/images/Arte2D/zombie.png",
+    description:
+      "Personaje que realice para una GameJam, la cual consistia en hacer personajes que tenian que estar bien definidos.El videokiegos quedo segundo haciendo que fueramos a prenetarlo en la IndieDevDay",
+    tools: ["Procreate", "Photoshop"],
+  },
+
 ];
 
 const Projects = () => {
