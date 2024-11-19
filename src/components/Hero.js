@@ -3,8 +3,8 @@ import { useHoverEffect } from "../hooks/useHoverEffect";
 import { useImageReveal, useHeadlineReveal } from "../hooks/gsap";
 
 const data = {
-  img1: "https://res.cloudinary.com/drgxflcsb/image/upload/v1676030149/Personal%20Portfolio/masud-image2_xhvc03.jpg", // Cambia esta URL por la tuya
-  img2: "https://res.cloudinary.com/drgxflcsb/image/upload/v1676030149/Personal%20Portfolio/masud-image1_rejzqv.jpg", // Cambia esta URL por la tuya
+  img1: "/assets/images/PortfolioCara/cara.jpg", 
+  img2: "/assets/images/PortfolioCara/informal.jpg", 
 };
 
 const Hero = () => {
