@@ -100,18 +100,6 @@ const data = [
       "Personaje que realice para una GameJam, la cual consistia en hacer personajes que tenian que estar bien definidos.El videokiegos quedo segundo haciendo que fueramos a prenetarlo en la IndieDevDay",
     tools: ["Procreate", "Photoshop"],
   },
-  {
-    id: 9,
-    title: "Diaseño de personaje fantaticos",
-    image1:
-      "/assets/images/Arte2D/fenix.png",
-    image2:
-      "/assets/images/Arte2D/zombie.png",
-    description:
-      "Personaje que realice para una GameJam, la cual consistia en hacer personajes que tenian que estar bien definidos.El videokiegos quedo segundo haciendo que fueramos a prenetarlo en la IndieDevDay",
-    tools: ["Procreate", "Photoshop"],
-  },
-
 ];
 
 const Projects = () => {
