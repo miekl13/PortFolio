@@ -4,22 +4,20 @@ import { useSocialReveal } from "../hooks/gsap";
 const data = [
   {
     id: 1,
+<<<<<<< HEAD
     title: "aaaaa",
     url: "https://www.facebook.com/masudranashawon786",
+=======
+    title: "Linkedin",
+    url: "https://www.linkedin.com/in/miguel-angel-jmenez-montemayor-82b39a325/",
+>>>>>>> 2d9aeabb125071cb290747faba00aae514020aad
   },
   {
     id: 2,
     title: "Instagram",
-    url: "https://instagram.com/masudranashawon786",
+    url: "https://www.instagram.com/mikel.1305/",
   },
-  { id: 3, title: "Twitter", url: "https://twitter.com/MasudRanaShawo1" },
-  {
-    id: 4,
-    title: "LinkedIn",
-    url: "https://www.linkedin.com/in/masudranashawon1/",
-  },
-  { id: 5, title: "GitHub", url: "https://github.com/masudranashawon" },
-  { id: 6, title: "LeetCode", url: "https://leetcode.com/masudranashawon" },
+  { id: 3, title: "GitHub", url: "https://github.com/miekl13" },
 ];
 
 const Socials = () => {
