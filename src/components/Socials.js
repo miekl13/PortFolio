@@ -4,7 +4,7 @@ import { useSocialReveal } from "../hooks/gsap";
 const data = [
   {
     id: 1,
-    title: "Facebook",
+    title: "aaaaa",
     url: "https://www.facebook.com/masudranashawon786",
   },
   {
