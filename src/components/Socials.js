@@ -4,13 +4,9 @@ import { useSocialReveal } from "../hooks/gsap";
 const data = [
   {
     id: 1,
-<<<<<<< HEAD
-    title: "aaaaa",
-    url: "https://www.facebook.com/masudranashawon786",
-=======
     title: "Linkedin",
     url: "https://www.linkedin.com/in/miguel-angel-jmenez-montemayor-82b39a325/",
->>>>>>> 2d9aeabb125071cb290747faba00aae514020aad
+
   },
   {
     id: 2,
