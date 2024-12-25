@@ -53,9 +53,10 @@ const Navbar = ({ footerNav }) => {
       </div>
       <ul className='menus flex flex-col gap-3 sm:w-[170px] w-[100px]'>
         <li className='self-start'>
-          <HashLink smooth to='/' className='link-item' ref={link2Ref}>
-            Home
-          </HashLink>
+        <HashLink smooth to='#home' className='link-item' ref={link2Ref}>
+          Home
+        </HashLink>
+
         </li>
         <li className='self-end'>
           <HashLink smooth to='#projects' className='link-item' ref={link3Ref}>
