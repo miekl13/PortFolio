@@ -3,17 +3,21 @@ import { useSkillLineReveal, useSkillTextReveal } from "../hooks/gsap";
 import SectionTitle from "./SectionTitle";
 
 const data = [
-  { id: 1, title: "HTML" },
-  { id: 2, title: "CSS" },
-  { id: 3, title: "C++" },
-  { id: 4, title: "C#" },
-  { id: 5, title: "JavaScript" },
-  { id: 6, title: "MongoDB" },
-  { id: 7, title: "SQL," },
-  { id: 8, title: "Procreate" },
-  { id: 9, title: "Blender" },
-  { id: 10, title: "3D MAX" },
-  { id: 11, title: "Subatnace Painter" },
+  { id: 1, title: "Modelado 3D inorganico y organico" },
+  { id: 2, title: "Modelado y iluminacion de escenarios" },
+  { id: 3, title: "Texturizado en Substance Painter" },
+  { id: 4, title: "Dibujos en digital en Procreate y Photoshop" },
+  { id: 5, title: "Unwrap y riging de modelos 3D " },
+  { id: 6, title: "Animaciones 2D y 3D" },
+  { id: 7, title: "Concept Art y diseño de personajes " },
+  { id: 8, title: "Diseño de escenarios y portadas" },
+  { id: 9, title: "Creacion de Stroryboards" },
+  { id: 9, title: "Conocimientos de diseño de anatomia, teoria del color, perspectivas y puntos de vision" },
+  { id: 10, title: "Programacion en HTML Y CSS" },
+  { id: 11, title: "Programacion en Java, C++ y C#" },
+  { id: 12, title: "Creacion de estructuras de datos en SQL Y MongoDB" },
+  { id: 13, title: "Nivel intermedio en excel" },
+  { id: 14, title: "Ingles nivel B1" },
 ];
 
 const Skills = () => {

@@ -3,7 +3,7 @@ import { useHoverEffect } from "../hooks/useHoverEffect";
 import { useImageReveal, useHeadlineReveal } from "../hooks/gsap";
 
 const data = {
-  img1: "/PortFolio/assets/images/PortfolioCara/formal.jpg", 
+  img1: "assets/images/PortfolioCara/cara.jpg", 
   img2: "assets/images/PortfolioCara/informal.jpg", 
 };
 

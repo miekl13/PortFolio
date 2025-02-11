@@ -5,7 +5,7 @@ const data = [
   {
     id: 1,
     title: "Linkedin",
-    url: "https://www.linkedin.com/in/miguel-angel-jmenez-montemayor-82b39a325/",
+    url: "https://www.linkedin.com/in/miguel-angel-jimenez-montemayor-82b39a325/",
 
   },
   {

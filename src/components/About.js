@@ -31,7 +31,7 @@ const About = () => {
           </p>
           <a
             className='uppercase py-8 px-14 border border-white/20 rounded-full hover:bg-cyan-400/20 hover:border-cyan-400/20 duration-300 inline-block mt-10'
-            href='https://drive.google.com/file/d/tu-resumen.pdf' // Reemplazar con tu URL real
+            href='https://drive.google.com/file/d/15-asVOJS8zeWEdBfgyoITl3-PHU9xSo_/view?usp=sharing' // Reemplazar con tu URL real
             target='_blank'
             rel='noreferrer'
           >
