@@ -157,7 +157,7 @@ const data = [
   },
   {
     id: 13,
-    title: "Diseño de personaje fantaticos",
+    title: "Diseños de personaje fantaticos",
     image1:
       "assets/images/Arte2D/fenix.jpg",
     image2:
